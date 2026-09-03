@@ -5,6 +5,14 @@ def hello():
     else:
         print(f"Hello {oddelek}")
 
+def poštevanka():
+    x = int(input("izberi si število")) 
+    št=1
+    while št<=10:
+        print(f"{št}*{x}={št*x}")
+        št+=1
+
+
 if __name__ == "__main__":
     hello()
 
